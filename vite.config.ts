@@ -7,7 +7,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   publicDir: "./static",
-  base: "./",
+  base: "/G7TEAM2-PORTFOLIO-PROJECT/",
   css: {
     postcss: {
       plugins: [tailwind()],
